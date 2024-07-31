@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- 远程服务器配置 -->
+    <remote name="github"
+        fetch="https://github.com/BI4VMR" />
+
+    <!-- 默认参数 -->
+    <default remote="github"
+        revision="master"
+        sync-j="3" />
+
+    <!-- 项目配置 -->
+    <project path="BaseLib-Java" name="BaseLib-Java" />
+    <project path="BaseLib-Android" name="BaseLib-Android" />
+    <project path="BaseLib-Manifests" name="BaseLib-Manifests" />
+</manifest>
